@@ -1,11 +1,11 @@
 import "./App.css";
-import UseRefHook from "./components/useRef-hook/UseRefHook.jsx";
+import ParentComponentProps from "./components/props/ParentComponentPROPS.jsx";
 
 function App() {
   return (
     <>
       <div>
-        <UseRefHook />
+        <ParentComponentProps />
       </div>
     </>
   );
