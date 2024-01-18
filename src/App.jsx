@@ -1,15 +1,14 @@
 import "./App.css";
-import JavaScriptPromises from "./components/JS_PROMISES/JavaScriptPromises.jsx";
-import ParentComponentProps from "./components/props/ParentComponentPROPS.jsx";
+import Array from "./components/array/Array.jsx";
 
 function App() {
   return (
     <>
       <div>
-        <JavaScriptPromises />
+        <h1>React and JS Essentials!!!</h1>
+        <Array />
       </div>
     </>
   );
 }
-
 export default App;
