@@ -1,12 +1,13 @@
 import "./App.css";
-import Array from "./components/array/Array.jsx";
+import RestParameters from "./components/rest_parameters/RestParametars.jsx";
+import SpreadOperator from "./components/spread_operator/SpreadOperator.jsx";
 
 function App() {
   return (
     <>
       <div>
         <h1>React and JS Essentials!!!</h1>
-        <Array />
+        <RestParameters />
       </div>
     </>
   );
