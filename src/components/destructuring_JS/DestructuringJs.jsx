@@ -1,8 +1,8 @@
 import React from "react";
 
-// destructuring = extract vlaues from arrays and objects then assign them to a variable in a convinient way
+// destructuring = extract values from arrays and objects then assign them to a variable in a convenient way
 //                 [] = to preform array destructuring
-//                 {} = to prefrom object  destructuring
+//                 {} = to preform object  destructuring
 function DestructuringJs() {
   //  -------- EXAMPLE 1 -------------
   // SWAP THE VALUE OF TWO VARIABLES
@@ -24,7 +24,7 @@ function DestructuringJs() {
   console.log(colors);
 
   //  -------- EXAMPLE 3 -------------
-  //  ASSIGN ARRAY ELMENTS TO VARIABLES
+  //  ASSIGN ARRAY ELEMENTS TO VARIABLES
 
   const pets = ["dog", "cat", "fish", "chicken"];
 
@@ -50,7 +50,9 @@ function DestructuringJs() {
     age: 32,
   };
 
-  const { firstName, lastName, age, job = null } = person2;
+  console.log(person1);
+  console.log(person2);
+  const { firstName, lastName, age, job = "unemployed" } = person2;
   //   const { firstName, lastName, age, job } = person2;
 
   console.log(firstName);
