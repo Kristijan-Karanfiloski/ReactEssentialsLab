@@ -5,11 +5,11 @@ import React, { useState, useEffect } from "react";
 //            Call the function to execute the code.
 
 function FunctionsJS() {
-  const [resultFromFunction, setresultFromFunction] = useState("");
+  const [resultFromFunction, setResultFromFunction] = useState("");
 
   console.log("RESULT FROM THE STATE :", resultFromFunction);
 
-  //age,username are parametars
+  //age,username are parameters
   function happyBirthday(age, username) {
     // console.log("Happy birthday to you!");
     // console.log(`Happy birthday dear ${username} !`);
@@ -28,7 +28,7 @@ function FunctionsJS() {
   function add(x, y) {
     const result = x + y;
 
-    setresultFromFunction(result);
+    setResultFromFunction(result);
 
     // return result;
   }

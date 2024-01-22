@@ -13,7 +13,7 @@ function RestParameters() {
     return foods;
   }
 
-  const food1 = "pizaa";
+  const food1 = "pizza";
   const food2 = "hamburger";
   const food3 = "hotdog";
   const food4 = "sushi";
@@ -51,11 +51,11 @@ function RestParameters() {
 
   console.log("Your total is " + sum(1, 2, 3, 4));
 
-  function combaineStrings(...strings) {
+  function combineStrings(...strings) {
     return strings.join(" ");
   }
 
-  const fullName = combaineStrings("Kristijan", "Karanfiloski");
+  const fullName = combineStrings("Kristijan", "Karanfiloski");
 
   console.log("FULL NAME", fullName);
 
